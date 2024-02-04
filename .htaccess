@@ -2,3 +2,10 @@
 
     RewriteRule ^login$ index.php
     RewriteRule ^admin$ indexAdmin.php
+
+    # Les routes de Boutique
+    RewriteRule ^boutique$ view/pages/admin/boutique/boutique.php
+
+    # Les routes de categorie
+    RewriteRule ^addCategorieController$ controller/categorieController.php
+    RewriteRule ^categorieView$ view/pages/admin/categorie/categorie.php

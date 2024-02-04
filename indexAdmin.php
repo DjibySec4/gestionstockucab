@@ -12,9 +12,15 @@
         <?php require_once("view/partials/admin/menuDroite.php") ?>
         <!------------ ❖❖❖ Menu Droite ❖❖❖ --------------->
         
-         <!------------ ❖❖❖ Content ❖❖❖ --------------->
-         <?php require_once("view/partials/admin/content.php") ?>
-        <!------------ ❖❖❖ Content ❖❖❖ --------------->
+        <div class="app-main">
+            <!------------ ❖❖❖ Menu Gauche ❖❖❖ --------------->
+            <?php require_once("view/partials/admin/menuGauche.php") ?>
+            <!------------ ❖❖❖ Menu Gauche ❖❖❖ --------------->
+                
+            <!------------ ❖❖❖ Content ❖❖❖ --------------->
+            <?php require_once("view/partials/admin/content.php") ?>
+            <!------------ ❖❖❖ Content ❖❖❖ --------------->
+        </div>
     </div>
     
     <!------------ ❖❖❖ Foot ❖❖❖ --------------->

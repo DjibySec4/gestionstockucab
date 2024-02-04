@@ -1,0 +1,33 @@
+<script charset="utf-8">
+    var Toast = Swal.mixin({
+        toast: true,
+        position: 'top-end',
+        showConfirmButton: false,
+        timer: 3000
+    });
+
+    let message = document.getElementById('message').textContent;
+    if (message != '') {
+        Toast.fire({
+            icon: 'error',
+            title: message
+        })
+    }
+
+    //   var Toast = Swal.mixin({
+    //     title: 'Error!',
+    // text: 'Do you want to continue',
+    // icon: 'error',
+    // confirmButtonText: 'Cool'
+    // });
+
+    // let message = document.getElementById('message').textContent;
+    // if (message != '') 
+    // {
+    //     Toast.fire({
+    //         icon: 'error',
+    //         title: message
+    //     })
+    // }
+
+</script>      
